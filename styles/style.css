@@ -28,15 +28,11 @@ header {
           justify-content: space-between;
   padding: 1.6rem 2.4rem 2.4rem 2rem;
   position: relative;
-  /*position: fixed;
-    z-index: 1;
-    width: 100%;
-    background-color: $white;*/
 }
 
 header .hamburger-logo-group {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display:  flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -53,7 +49,7 @@ header .hamburger-logo-group {
 
 header .hamburger-logo-group .hamburger {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -93,10 +89,7 @@ header .hamburger-logo-group .menu .slide-menu {
 }
 
 header .hamburger-logo-group .menu .slide-menu img {
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 header .hamburger-logo-group .menu .slide-menu img:hover {
@@ -110,7 +103,7 @@ header .hamburger-logo-group .menu .slide-menu ul {
   font-size: 1.8rem;
   font-weight: 700;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -136,7 +129,7 @@ header .hamburger-logo-group .hidden {
 
 header .cart-avatar-group {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -202,7 +195,7 @@ header .cart .cart-header {
 header .cart .products-in-cart .item {
   margin: 2.4rem;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -225,7 +218,7 @@ header .cart .products-in-cart .item .details {
 
 header .cart .products-in-cart .item .details .price-group {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   gap: 0.6rem;
 }
@@ -308,7 +301,7 @@ header .hidden {
   width: 4rem;
   height: 4rem;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -354,7 +347,7 @@ header .hidden {
 
 .product .price-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -367,7 +360,7 @@ header .hidden {
 
 .product .price-wrapper .group {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -401,7 +394,7 @@ header .hidden {
 
 .product .counter-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -436,7 +429,7 @@ header .hidden {
   color: white;
   margin-top: 1.5rem;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -460,7 +453,7 @@ header .hidden {
           filter: brightness(300%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90em) {
   .container {
     width: 77%;
     margin: 0 auto;
@@ -522,7 +515,7 @@ header .hidden {
   }
   .content {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -544,7 +537,7 @@ header .hidden {
   }
   .lightbox .thumb-gallery {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -556,7 +549,7 @@ header .hidden {
   }
   .lightbox .thumb-gallery .pic {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     width: 20%;
     height: -webkit-fit-content;
@@ -602,7 +595,7 @@ header .hidden {
   }
   .product .count-btn-group {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -631,7 +624,7 @@ header .hidden {
   right: 0;
   background-color: rgba(0, 0, 0, 0.75);
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -663,7 +656,7 @@ header .hidden {
 
 .overlay .lightbox .next {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   right: 0;
   -webkit-transform: translateX(50%);
@@ -672,7 +665,7 @@ header .hidden {
 
 .overlay .lightbox .previous {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   left: 0;
   -webkit-transform: translateX(-50%);
@@ -686,4 +679,3 @@ header .hidden {
 .hidden {
   display: none;
 }
-/*# sourceMappingURL=style.css.map */
